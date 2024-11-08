@@ -1,0 +1,10 @@
+{
+  "homepage": {
+    "testin": "testing"
+  },
+  "language": {
+    "greek": "Greek",
+    "english": "English",
+    "turkish": "Turkish"
+  }
+}
