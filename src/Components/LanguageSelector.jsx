@@ -46,12 +46,19 @@ const LanguageSelector = () => {
 
   const currentLangIcon = currentLangObj ? currentLangObj.icon : "";
   return (
-    <div className="relative inline-block text-2xl gap-2.5 mt-0 mr-[30px] bg-white rounded-md cursor-pointer z-30">
-      <div onClick={toggleDropdown} className="flex items-center py-1 px-2">
-        <img className={"w-6 h-6"} src={currentLangIcon} alt="languanges" />
+    <div className="relative inline-block gap-2.5 mt-0 sm:mr-[40px] bg-white bg-opacity-30 rounded-md cursor-pointer z-30">
+      <div
+        onClick={toggleDropdown}
+        className="flex items-center py-2 px-2 lg:py-0.5 lg:px-2"
+      >
+        <img
+          className={"w-8 min-w-8 lg:min-w-6 lg:w-6"}
+          src={currentLangIcon}
+          alt="languanges"
+        />
         <div>
           {/* <div className="lng-language-text">{language}</div> */}
-          <div className="ml-3 font-inter font-medium text-[1.05rem] text-start">
+          <div className="ml-2 text-white font-inter font-medium text-md lg:text-lg text-start hidden lg:flex">
             {currentLangName}
           </div>
         </div>
@@ -59,17 +66,19 @@ const LanguageSelector = () => {
       {isOpen && (
         <div
           className="rounded-md
-      absolute flex flex-col items-center justify-center text-[16px]
+      absolute flex flex-col items-center justify-center text-[16px] -ml-2 sm:-ml-2 mt-2 lg:mt-0
       bg-white z-10 shadow-[0_2px_8px_rgba(0,0,0,0.1)]"
         >
           {languages.map((lng) => (
             <div
-              className="w-full px-5 py-2 m-0.5 flex items-center justify-center gap-3 rounded-[10%] hover:text-black hover:bg-[rgba(214,214,214,0.364)]"
+              className="w-full px-3 lg:px-5 py-1 lg:py-2 m-0.5 flex items-center justify-center lg:justify-between gap-3 rounded-[10%] hover:text-black hover:bg-[rgba(214,214,214,0.364)]"
               key={lng.code}
               onClick={() => handleLanguageChange(lng.code)}
             >
-              <img className={"w-6 h-6"} src={lng.icon} alt="languanges" />
-              {lng.lang}
+              <div className="flex items-center justify-center h-6 w-6">
+                <img className="w-full h-full" src={lng.icon} alt="language" />
+              </div>
+              <div className="hidden lg:flex">{lng.lang}</div>
             </div>
           ))}
         </div>
