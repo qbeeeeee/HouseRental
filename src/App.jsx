@@ -6,6 +6,10 @@ import HouseInfo from "./Components/HouseInfo";
 import HouseBenefits from "./Components/HouseBenefits";
 import ChekcInAndOut from "./Components/ChekcInAndOut";
 import { useTranslation } from "react-i18next";
+import viber from "./assets/svg/viber.svg";
+import whatsapp from "./assets/svg/whatsapp.svg";
+import email from "./assets/svg/email.svg";
+import phone from "./assets/svg/phone.svg";
 
 const App = () => {
   const { t } = useTranslation();
@@ -15,18 +19,48 @@ const App = () => {
       <NavBar />
       <div>
         <div className="container px-5 xl:px-36 mx-auto mt-8">
-          <div className="border shadow-md w-full flex flex-col py-4 gap-2 items-center justify-center">
-            <div className="text-lg font-semibold">Book Now on Booking.com</div>
-            <div className="flex gap-2">
+          <div className="w-full mx-auto bg-white border border-gray-200 shadow-lg rounded-lg flex flex-col p-6 gap-4 items-center">
+            <h2 className="text-xl font-bold text-gray-800 text-center">
+              Contact Me on WhatsApp, Viber, Email or Phone to Book Now
+            </h2>
+            <p className="text-gray-600 text-center">
+              Let’s get in touch! Reach out on your preferred platform below.
+            </p>
+
+            {/* Contact options (example) */}
+            <div className="flex gap-4">
               <a
-                href="https://www.booking.com/hotel/gr/like-your-home-komotene2.el.html"
+                href="tel:6986984143"
+                className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 transition"
+              >
+                <img src={phone} alt="Phone" className="w-5 h-5" />
+                Phone
+              </a>
+
+              <a
+                href="https://wa.me/306986984143"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Book on Booking.com"
+                className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-full shadow-md hover:bg-green-600 transition"
               >
-                <button className="bg-[#003B95] text-lg text-white hover:bg-[#2c5a9f] cursor-pointer px-4 py-1.5 rounded-md transition duration-200">
-                  Book Me
-                </button>
+                <img src={whatsapp} alt="WhatsApp" className="w-5 h-5" />
+                WhatsApp
+              </a>
+
+              <a
+                href="viber://chat?number=6986984143"
+                className="flex items-center gap-2 px-4 py-2 bg-purple-500 text-white rounded-full shadow-md hover:bg-purple-600 transition"
+              >
+                <img src={viber} alt="Viber" className="w-5 h-5" />
+                Viber
+              </a>
+
+              <a
+                href="mailto:llakomotini@hotmail.com"
+                className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 transition"
+              >
+                <img src={email} alt="Email" className="w-5 h-5" />
+                Email
               </a>
             </div>
           </div>
