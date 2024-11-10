@@ -49,7 +49,7 @@ const LanguageSelector = () => {
     <div className="relative inline-block gap-2.5 mt-0 sm:mr-[40px] bg-white bg-opacity-30 rounded-md cursor-pointer z-30">
       <div
         onClick={toggleDropdown}
-        className="flex items-center py-2 px-2 lg:py-0.5 lg:px-2"
+        className="flex items-center py-1 px-1 sm:py-2 sm:px-2 lg:py-0.5 lg:px-2"
       >
         <img
           className={"w-8 min-w-8 lg:min-w-6 lg:w-6"}

@@ -1,6 +1,7 @@
 {
   "houseInfo": {
-    "firstpart": "Üç yatak odalı daire, şehir merkezine 10 dakikalık yürüme mesafesinde, sakin bir mahallede iki katlı bir apartmanın yükseltilmiş zemin katında yer almaktadır ve yakın zamanda yenilenmiştir. İç mekanda konfor ve sadelik, şıklıkla uyumlu bir şekilde bir araya geliyor. Kişisel zevkle dekore edilmiş oda, sıcaklık yayar ve kendinizi evde hissetmenizi sağlayacak samimi bir atmosfer yaratır. Tam donanımlı bir mutfağa sahip olması nedeniyle aileler için idealdir, çamaşır makinesi, kurutma makinesi ve bebek beşiği, mama sandalyesi, yatak rayı ve bebek arabası danışma üzerine ücretsiz olarak temin edilebilir. Konaklama birimi termal cepheye sahiptir ve ısıtma, mazotlu radyatör ile bağımsızdır  Son olarak, radyatörlere bağlı bir kazan, bir elektrikli ısıtıcı ve bir güneş enerjisi ısıtıcısı bulunduğundan sürekli bir sıcak su temini vardır."
+    "firstpart": "Üç yatak odalı daire, şehir merkezine 10 dakikalık yürüme mesafesinde, sakin bir mahallede iki katlı bir apartmanın yükseltilmiş zemin katında yer almaktadır ve yakın zamanda yenilenmiştir. İç mekanda konfor ve sadelik, şıklıkla uyumlu bir şekilde bir araya geliyor. Kişisel zevkle dekore edilmiş oda, sıcaklık yayar ve kendinizi evde hissetmenizi sağlayacak samimi bir atmosfer yaratır. Tam donanımlı bir mutfağa sahip olması nedeniyle aileler için idealdir, çamaşır makinesi, kurutma makinesi ve bebek beşiği, mama sandalyesi, yatak rayı ve bebek arabası danışma üzerine ücretsiz olarak temin edilebilir. Konaklama birimi termal cepheye sahiptir ve ısıtma, mazotlu radyatör ile bağımsızdır  Son olarak, radyatörlere bağlı bir kazan, bir elektrikli ısıtıcı ve bir güneş enerjisi ısıtıcısı bulunduğundan sürekli bir sıcak su temini vardır.",
+    "ama": "Lisans Numarası"
   },
   "language": {
     "greek": "Yunan",
@@ -29,7 +30,7 @@
     "reviews": "Yorumlar"
   },
   "houseBenefits": {
-    "header": "Living Life Apartment Komotini Olanakları",
+    "header": "İmkanlar",
     "rating": "Yorum puanı 10",
     "parking0": "Otopark",
     "parking1": "Sokakta park",
@@ -102,5 +103,10 @@
     "checkin0": "4:00 PM ile 10:30 PM arası",
     "checkin1": "Tesise varış saatinizi önceden bildirmeniz gerekir.",
     "checkout0": "7:00 AM ile 11:30 AM arası"
+  },
+  "homepage": {
+    "info": "İletişim Bilgileri",
+    "tel": "Telefon",
+    "msg": "Özel bir ev sahibi olarak, fatura düzenleme imkanım yoktur ve Yunan yasalarına göre temizlik hizmeti sağlanması yasaktır."
   }
 }

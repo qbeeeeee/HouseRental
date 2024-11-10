@@ -12,23 +12,23 @@ const ChekcInAndOut = () => {
       <div className="border-t border-slate-300 w-full pt-10"></div>
       <div className="text-2xl font-bold mb-10">Check in / Check out</div>
       <div className="flex flex-col gap-6  border px-7 sm:px-10 py-8 shadow-md w-full">
-        <div className="flex gap-48 border-b pb-5">
-          <div className="font-bold flex items-center justify-center gap-2">
+        <div className="flex gap-8 sm:gap-48 border-b pb-5">
+          <div className="font-bold flex items-center justify-center gap-2 whitespace-nowrap">
             {" "}
             <img src={checkin} alt="Check in" className="w-5" /> Check in
           </div>
-          <div>
+          <div className="text-sm sm:text-md">
             <div>{checkin0}</div>
             <div className="text-sm opacity-60">{checkin1}</div>
           </div>
         </div>
 
-        <div className="flex gap-44">
-          <div className="font-bold flex items-center justify-center gap-2">
+        <div className="flex gap-6 sm:gap-44">
+          <div className="font-bold flex items-center justify-center gap-2 whitespace-nowrap">
             <img src={checkout} alt="Check in" className="w-5" />
             Check out
           </div>
-          <div>
+          <div className="text-sm sm:text-md">
             <div>{checkout0}</div>
           </div>
         </div>

@@ -17,14 +17,14 @@ const NavBar = () => {
           <img
             src={homeOwner}
             alt="Home Owner"
-            className="w-12 bg-white bg-opacity-30 p-[7px] sm:w-16 lg:w-20 rounded-full shadow-lg cursor-pointer hover:scale-105 transform duration-300 ease-in-out"
+            className="w-12 bg-white bg-opacity-30 p-1 sm:p-[7px] sm:w-16 lg:w-20 rounded-full shadow-lg cursor-pointer hover:scale-105 transform duration-300 ease-in-out"
           />
           <div className="text-white mt-2 text-xs sm:text-sm lg:text-md font-bold uppercase">
             {gewrgia}
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center text-center max-w-[70%]">
+        <div className="flex flex-col items-center justify-center text-center max-w-[60%]">
           <div className="text-white text-2xl sm:text-3xl lg:text-4xl font-extrabold drop-shadow-lg">
             Living Life Apartment Komotini
           </div>

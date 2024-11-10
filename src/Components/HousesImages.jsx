@@ -9,6 +9,8 @@ const HousesImages = () => {
 
   const [selectedImg, setSelectedImg] = useState(null);
   const thumbnailsRef = useRef(null);
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
 
   useEffect(() => {
     setSelectedImg(0);
@@ -73,12 +75,37 @@ const HousesImages = () => {
     scrollToSelected();
   }, [selectedImg]);
 
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchMove = (e) => {
+    touchEndX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    const distance = touchStartX.current - touchEndX.current;
+
+    if (distance > 50) {
+      // Swiped left
+      nextImage();
+    } else if (distance < -50) {
+      // Swiped right
+      previousImage();
+    }
+  };
+
   return (
     <div className="flex flex-col lg:flex-row justify-center container mx-auto px-3 lg:px-0 mt-[40px]">
       {/* Main image section with sticky positioning and styled container */}
       <div className="sticky top-0 bg-transparent rounded-lg mx-auto lg:mx-0">
         {houseImages[selectedImg] && (
-          <div className="text-center">
+          <div
+            className="text-center"
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
+          >
             <img
               src={houseImages[selectedImg].image}
               alt="Selected"

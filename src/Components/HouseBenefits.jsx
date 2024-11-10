@@ -328,7 +328,7 @@ function HouseBenefits() {
         </div>
 
         {/* third col */}
-        <div className="flex gap-2 sm:gap-4 flex-col w-[100%] sm:w-[48%] lg:w-[31%]">
+        <div className="flex gap-2 sm:gap-4 flex-col w-[100%] lg:w-[31%]">
           <div className="border shadow-sm px-10 py-7 rounded-md">
             <div className="text-lg font-semibold flex gap-3 mb-2">
               <img src={tv} alt="check" className="w-5" />
