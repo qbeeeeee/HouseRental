@@ -108,5 +108,9 @@
     "info": "Contact Information",
     "tel": "Telephone",
     "msg": "As a private host, I am not able to issue invoices, and according to Greek law, the provision of cleaning services is prohibited."
+  },
+  "contact": {
+    "contactme": "Contact Me on WhatsApp, Viber, Email or Phone to Book Now",
+    "contactme1": "Let’s get in touch! Reach out on your preferred platform below."
   }
 }

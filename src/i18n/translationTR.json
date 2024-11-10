@@ -108,5 +108,9 @@
     "info": "İletişim Bilgileri",
     "tel": "Telefon",
     "msg": "Özel bir ev sahibi olarak, fatura düzenleme imkanım yoktur ve Yunan yasalarına göre temizlik hizmeti sağlanması yasaktır."
+  },
+  "contact": {
+    "contactme": "Hemen Rezervasyon Yapmak İçin WhatsApp, Viber, E-posta veya Telefonla İletişime Geçin",
+    "contactme1": "İletişime geçelim! Aşağıdaki tercih ettiğiniz platformdan bize ulaşın."
   }
 }

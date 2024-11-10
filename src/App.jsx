@@ -14,21 +14,20 @@ import phone from "./assets/svg/phone.svg";
 const App = () => {
   const { t } = useTranslation();
   const { info, tel, msg } = t("homepage");
+  const { contactme, contactme1 } = t("contact");
   return (
     <div className="min-h-screen bg-white mb-5 overflow-x-hidden">
       <NavBar />
       <div>
         <div className="container px-5 xl:px-36 mx-auto mt-8">
           <div className="w-full mx-auto bg-white border border-gray-200 shadow-lg rounded-lg flex flex-col p-6 gap-4 items-center">
-            <h2 className="text-xl font-bold text-gray-800 text-center">
-              Contact Me on WhatsApp, Viber, Email or Phone to Book Now
+            <h2 className="text-lg md:text-xl font-bold text-gray-800 text-center">
+              {contactme}
             </h2>
-            <p className="text-gray-600 text-center">
-              Let’s get in touch! Reach out on your preferred platform below.
-            </p>
+            <p className="text-gray-600 text-center">{contactme1}</p>
 
             {/* Contact options (example) */}
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-wrap max-w-[300px] sm:max-w-full items-center justify-center mt-2">
               <a
                 href="tel:6986984143"
                 className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 transition"
