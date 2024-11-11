@@ -96,7 +96,7 @@ const HousesImages = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center container mx-auto px-3 lg:px-0 mt-[40px]">
+    <div className="flex flex-col lg:flex-row justify-center container mx-auto px-3 lg:px-0 mt-6 sm:mt-[40px]">
       {/* Main image section with sticky positioning and styled container */}
       <div className="sticky top-0 bg-transparent rounded-lg mx-auto lg:mx-0">
         {houseImages[selectedImg] && (

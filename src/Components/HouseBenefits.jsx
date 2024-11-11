@@ -96,17 +96,17 @@ function HouseBenefits() {
         <div className="text-md opacity-70 mt-2">{rating}</div>
       </div>
 
-      <div className="mt-10 flex flex-wrap justify-between w-full gap-2 sm:gap-4">
+      <div className="mt-6 sm:mt-10 flex flex-wrap justify-between w-full gap-2 sm:gap-4">
         {/* first col */}
         <div className="flex gap-2 sm:gap-4 flex-col w-[100%] sm:w-[48%] lg:w-[31%]">
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               {" "}
               <img src={parking} alt="parking" className="w-5" />
               {parking0}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 {" "}
                 <img src={check} alt="check" className="w-3" />
                 {parking1}
@@ -114,92 +114,92 @@ function HouseBenefits() {
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               {" "}
               <img src={wifi} alt="wifi" className="w-5" />
               {internet}
             </div>
-            <div>{internet1}</div>
+            <div className="text-sm sm:text-md">{internet1}</div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={oven} alt="check" className="w-5" />
               {kitchen}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen2}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen3}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen4}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen5}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen6}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen7}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen8}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {kitchen9}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={grass} alt="check" className="w-5" />
               {outside}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {outside1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {outside2}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {outside3}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={reception} alt="check" className="w-5" />
               {reception0}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {reception1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {reception2}
               </div>
@@ -209,117 +209,117 @@ function HouseBenefits() {
 
         {/* second col */}
         <div className="flex gap-2 sm:gap-4 flex-col w-[100%] sm:w-[48%] lg:w-[31%]">
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={bed} alt="check" className="w-5" />
               {bed0}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bed1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bed2}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={bathtab} alt="check" className="w-5" />
               {bath0}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bath1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bath2}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bath3}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bath4}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bath5}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bath6}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bath7}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {bath8}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={sofa} alt="check" className="w-5" />
               {livingroom}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {livingroom1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {livingroom2}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {livingroom3}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={fun} alt="fun" className="w-5" />
               {entertainment}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {entertainment1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {entertainment2}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {entertainment3}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={safe} alt="check" className="w-5" />
               {safety}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {safety1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {safety2}
               </div>
@@ -329,113 +329,113 @@ function HouseBenefits() {
 
         {/* third col */}
         <div className="flex gap-2 sm:gap-4 flex-col w-[100%] lg:w-[31%]">
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={tv} alt="check" className="w-5" />
               {tech}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {tech1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {tech2}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={bed} alt="check" className="w-5" />
               {room}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {room1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {room2}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {room3}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {room4}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {room5}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {room6}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {room7}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={wheelchair} alt="wheelchair" className="w-5" />
               {accessibility}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {accessibility1}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={more} alt="check" className="w-4" />
               {other}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {other1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {other2}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {other3}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {other4}
               </div>
             </div>
           </div>
 
-          <div className="border shadow-sm px-10 py-7 rounded-md">
-            <div className="text-lg font-semibold flex gap-3 mb-2">
+          <div className="border shadow-sm px-10 py-4 sm:py-7 rounded-md">
+            <div className="sm:text-lg font-semibold flex gap-3 mb-2">
               <img src={lngs} alt="check" className="w-5" />
               {lngs0}
             </div>
             <div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {lngs1}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {lngs2}
               </div>
-              <div className="flex gap-3">
+              <div className="text-sm sm:text-md flex gap-3">
                 <img src={check} alt="check" className="w-3" />
                 {lngs3}
               </div>
