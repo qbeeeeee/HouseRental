@@ -122,7 +122,7 @@ const HousesImages = () => {
             onTouchEnd={handleTouchEnd}
           >
             <img
-              src={houseImages[selectedImg].image}
+              srcSet={`${houseImages[selectedImg].image300} 300w, ${houseImages[selectedImg].image900} 900w, ${houseImages[selectedImg].image} 1800w`}
               alt="Selected"
               loading="eager"
               className="w-[700px] h-[300px] sm:h-[400px] lg:h-[470px] shadow-md object-contain bg-neutral-700 rounded-lg"
@@ -167,7 +167,7 @@ const HousesImages = () => {
 
             {/* Thumbnail image with hover and selected state styling */}
             <img
-              src={img.image}
+              srcSet={`${img.image300} 300w, ${img.image900} 900w, ${img.image} 1800w`}
               alt="img"
               className={`w-[200px] h-[100px] lg:w-64 lg:h-40 object-cover rounded-lg transition duration-300 ease-in-out cursor-pointer ${
                 selectedImg === index ? "opacity-40" : "hover:scale-105"
