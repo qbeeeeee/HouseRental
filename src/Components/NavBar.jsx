@@ -1,6 +1,6 @@
 import React from "react";
 import LanguageSelector from "./LanguageSelector";
-import homeOwner from "./../assets/img/homeOwner/homeOwner.webp";
+import homeOwner from "./../assets/img/homeOwner/homeowner.webp";
 import location from "./../assets/svg/starRating/location.svg";
 import { useTranslation } from "react-i18next";
 
