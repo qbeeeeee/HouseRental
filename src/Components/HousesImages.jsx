@@ -76,14 +76,20 @@ const HousesImages = () => {
   }, [selectedImg]);
 
   const handleTouchStart = (e) => {
-    touchStartX.current = e.touches[0].clientX;
+    if (e.target.tagName !== "BUTTON") {
+      touchStartX.current = e.touches[0].clientX;
+    }
   };
 
   const handleTouchMove = (e) => {
-    touchEndX.current = e.touches[0].clientX;
+    if (e.target.tagName !== "BUTTON") {
+      touchEndX.current = e.touches[0].clientX;
+    }
   };
 
-  const handleTouchEnd = () => {
+  const handleTouchEnd = (e) => {
+    if (e.target.tagName === "BUTTON") return;
+
     const distance = touchStartX.current - touchEndX.current;
 
     if (distance > 50) {
