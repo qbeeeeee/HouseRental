@@ -16,6 +16,21 @@ const HousesImages = () => {
     setSelectedImg(0);
   }, []);
 
+  useEffect(() => {
+    if (houseImages[selectedImg]) {
+      const preloadImage = new Image();
+      preloadImage.src = houseImages[selectedImg].image;
+    }
+  }, [selectedImg]);
+
+  useEffect(() => {
+    // Preload all house images on initial load
+    houseImages.forEach((img) => {
+      const preloadImage = new Image();
+      preloadImage.src = img.image;
+    });
+  }, []);
+
   const nextImage = () => {
     setSelectedImg((prevIndex) =>
       prevIndex === houseImages.length - 1 ? 0 : prevIndex + 1
@@ -109,6 +124,7 @@ const HousesImages = () => {
             <img
               src={houseImages[selectedImg].image}
               alt="Selected"
+              loading="eager"
               className="w-[700px] h-[300px] sm:h-[400px] lg:h-[470px] shadow-md object-contain bg-neutral-700 rounded-lg"
             />
             <div className="mt-5 text-gray-300 font-semibold flex items-center justify-center gap-10">
@@ -156,6 +172,7 @@ const HousesImages = () => {
               className={`w-[200px] h-[100px] lg:w-64 lg:h-40 object-cover rounded-lg transition duration-300 ease-in-out cursor-pointer ${
                 selectedImg === index ? "opacity-40" : "hover:scale-105"
               }`}
+              loading="lazy"
               onClick={() => setSelectedImg(index)} // Set the clicked image as the selected image
             />
           </div>
